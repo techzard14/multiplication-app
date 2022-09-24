@@ -1,5 +1,5 @@
 *{
-    font-family: cursive;
+    font-family: cursive !important;
 }
 body{
     margin: 0;
@@ -32,7 +32,7 @@ body{
 }
 
 .input::placeholder{
-    font-family: cursive;
+   
     color: lightgray;
 }
 
@@ -46,7 +46,6 @@ body{
     border-radius: 8px;
     margin:20px 0;
     font-size: 20px;
-    font-family: cursive;
     box-shadow: 0 2px 4px rgba(0,0,0,.3);
     cursor: pointer;   
      position: relative;
